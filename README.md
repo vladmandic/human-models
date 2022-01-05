@@ -10,35 +10,29 @@ Optional models are published here to keep the size of the main library containe
 
 ## Usage
 
- Additional models can be accessed via:
+`Human` includes default models but supports number of additional models and model variations of existing models  
+
+Additional models can be accessed via:
  - [GitHub repository](https://github.com/vladmandic/human-models)
- - [NPMjs package](https://www.npmjs.com/package/human-models)
- - [jsDelivr CDN]()
+ - [NPMjs package](https://www.npmjs.com/package/@vladmandic/human-models)
+ - [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@vladmandic/human-models)
 
-You can manually download models and update configuration `modelPath` value for each model
-
-To use online CDN, simply set `human.config.baseModelPath` to ``
+You can manually download models and update configuration `modelPath` value to each model or simply set `baseModelPath` to this list  
+To use online CDN, simply set `human.config.baseModelPath` to `https://www.jsdelivr.com/package/npm/@vladmandic/human-models/models`
 
 <br>
 
 ## List of Included Models
 
-BlazeFace family:
-- `blazeface`
-- `blazeface-back`
-- `blazeface-front`
-
-BlazePose family:
-- `blazepose-detector2d`
-- `blazepose-detector3d`
-- `blazepose-lite`
-- `blazepose-full`
-- `blazepose-heavy`
-
-MoveNet family:
+Pose detection alternatives
 - `movenet-lightning`
 - `movenet-thunder`
 - `movenet-multipose`
+- `efficientpose`
+- `posenet`
+- `blazepose-lite`
+- `blazepose-full`
+- `blazepose-heavy`
 
 HandPose and HandTrack family:
 - `handdetect`
@@ -48,16 +42,18 @@ HandPose and HandTrack family:
 - `handlandmark-lite`
 - `handlandmark-sparse`
 
-efficientpose
-mb3-centernet
-nanodet
-posenet
+Object detection:
+- `mb3-centernet`
+- `nanodet`
 
 Segmentation:
 - `meet`
 - `selfie`
 
 Face analysis:
+- `blazeface`
+- `blazeface-back`
+- `blazeface-front`
 - `age`
 - `emotion`
 - `faceboxes`
