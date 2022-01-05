@@ -1,0 +1,30 @@
+{
+  "name": "human-models",
+  "description": "Repository for optional models not included in the default Human library",
+  "license": "MIT",
+  "author": "Vladimir Mandic <mandic00@live.com>",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmandic/human-models.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vladmandic/human-models/issues"
+  },
+  "homepage": "https://github.com/vladmandic/human-models#readme",
+  "scripts": {
+  },
+  "keywords": [
+    "human",
+    "human-library",
+    "face-detection",
+    "body-tracking",
+    "hand-tracking",
+    "tfjs-models",
+    "tfjs",
+    "tensorflowjs"
+  ],
+  "dependencies": {
+    "@vladmandic/human": "@vladmandic/human"
+  }
+}
