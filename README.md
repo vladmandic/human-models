@@ -15,10 +15,13 @@ Optional models are published here to keep the size of the main library containe
 Additional models can be accessed via:
  - [GitHub repository](https://github.com/vladmandic/human-models)
  - [NPMjs package](https://www.npmjs.com/package/@vladmandic/human-models)
- - [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@vladmandic/human-models)
 
-You can manually download models and update configuration `modelPath` value to each model or simply set `baseModelPath` to this list  
-To use online CDN, simply set `human.config.baseModelPath` to `https://www.jsdelivr.com/package/npm/@vladmandic/human-models/models`
+To use alternative models from local host:
+- download them either from *github* or *npmjs* and either
+- set human configuration value `modelPath` for each model or
+- set global configuration value `baseModelPath` to location of downloaded models
+
+To use alternative models from a CDN use location prefix `https://www.jsdelivr.com/package/npm/@vladmandic/human-models/models/` for either configuration value of `modelPath` or `baseModelPath`
 
 <br>
 
