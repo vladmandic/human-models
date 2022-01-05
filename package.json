@@ -3,7 +3,7 @@
   "description": "Repository for optional models not included in the default Human library",
   "license": "MIT",
   "author": "Vladimir Mandic <mandic00@live.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vladmandic/human-models.git"
@@ -12,8 +12,7 @@
     "url": "https://github.com/vladmandic/human-models/issues"
   },
   "homepage": "https://github.com/vladmandic/human-models#readme",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "human",
     "human-library",
