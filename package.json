@@ -1,5 +1,5 @@
 {
-  "name": "human-models",
+  "name": "@vladmandic/human-models",
   "description": "Repository for optional models not included in the default Human library",
   "license": "MIT",
   "author": "Vladimir Mandic <mandic00@live.com>",
@@ -24,7 +24,7 @@
     "tfjs",
     "tensorflowjs"
   ],
-  "dependencies": {
+  "devDependencies": {
     "@vladmandic/human": "@vladmandic/human"
   }
 }
