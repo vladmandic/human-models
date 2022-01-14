@@ -21,13 +21,14 @@ To use alternative models from local host:
 - set human configuration value `modelPath` for each model or
 - set global configuration value `baseModelPath` to location of downloaded models
 
-To use alternative models from a CDN use location prefix `https://www.jsdelivr.com/package/npm/@vladmandic/human-models/models/` for either configuration value of `modelPath` or `baseModelPath`
+To use alternative models from a CDN use location prefix `https://cdn.jsdelivr.net/gh/vladmandic/human-models/models/` for either configuration value of `modelPath` or `baseModelPath`
 
 <br>
 
 ## List of Included Models
 
-Pose detection alternatives
+**Pose detection alternatives**
+
 - `movenet-lightning`
 - `movenet-thunder`
 - `movenet-multipose`
@@ -37,7 +38,8 @@ Pose detection alternatives
 - `blazepose-full`
 - `blazepose-heavy`
 
-HandPose and HandTrack family:
+**HandPose and HandTrack family:**
+
 - `handdetect`
 - `handtrack`
 - `handskeleton`
@@ -45,15 +47,18 @@ HandPose and HandTrack family:
 - `handlandmark-lite`
 - `handlandmark-sparse`
 
-Object detection:
+**Object detection:**
+
 - `mb3-centernet`
 - `nanodet`
 
-Segmentation:
+**Segmentation:**
+
 - `meet`
 - `selfie`
 
-Face analysis:
+**Face analysis:**
+
 - `blazeface`
 - `blazeface-back`
 - `blazeface-front`
