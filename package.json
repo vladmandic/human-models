@@ -3,7 +3,7 @@
   "description": "Repository for optional models not included in the default Human library",
   "license": "MIT",
   "author": "Vladimir Mandic <mandic00@live.com>",
-  "version": "2.5.8",
+  "version": "2.5.9",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vladmandic/human-models.git"
