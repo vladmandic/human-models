@@ -24,6 +24,6 @@
     "tensorflowjs"
   ],
   "dependencies": {
-    "@vladmandic/human": "^2.7.2"
+    "@vladmandic/human": "^2.7.3"
   }
 }
