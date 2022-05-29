@@ -66,7 +66,7 @@ To use alternative models from a CDN use location prefix `https://cdn.jsdelivr.n
 - `emotion`
 - `faceboxes`
 - `facemesh`
-- `facemesh-with-attention`
+- `facemesh-attention`
 - `faceres`
 - `faceres-deep`
 - `gear`
