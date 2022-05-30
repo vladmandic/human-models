@@ -1,9 +1,10 @@
 {
   "name": "@vladmandic/human-models",
-  "description": "Repository for optional models not included in the default Human library",
+  "description": "Repository for Human models",
   "license": "MIT",
   "author": "Vladimir Mandic <mandic00@live.com>",
   "version": "2.8.0",
+  "main": "gcp-upload.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vladmandic/human-models.git"
@@ -12,18 +13,21 @@
     "url": "https://github.com/vladmandic/human-models/issues"
   },
   "homepage": "https://github.com/vladmandic/human-models#readme",
-  "scripts": {},
+  "scripts": {
+    "start": "node gcp-upload.js"
+  },
   "keywords": [
     "human",
     "human-library",
-    "face-detection",
-    "body-tracking",
-    "hand-tracking",
-    "tfjs-models",
-    "tfjs",
-    "tensorflowjs"
+    "tfjs-models"
   ],
   "dependencies": {
-    "@vladmandic/human": "^2.7.3"
+    "@vladmandic/human": "^2.7.3",
+    "@vladmandic/pilogger": "^0.4.4",
+    "@google-cloud/storage": "^6.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-node": "^11.1.0"
   }
 }

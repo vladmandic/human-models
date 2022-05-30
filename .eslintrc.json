@@ -1,0 +1,26 @@
+{
+  "globals": {},
+  "env": {
+    "commonjs": true,
+    "node": true,
+    "es2020": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "extends": [
+    "airbnb-base",
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "rules": {
+    "max-len": [1, 275, 3],
+    "no-restricted-syntax": "off",
+    "no-await-in-loop": "off",
+    "no-continue": "off",
+    "node/no-unpublished-require": "off",
+    "radix": "off"
+  }
+}
