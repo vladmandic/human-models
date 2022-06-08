@@ -1,0 +1,103 @@
+2022-05-30 14:41:18 [36mINFO: [39m { application: [32m'@vladmandic/human-models'[39m, version: [32m'2.8.0'[39m }
+2022-05-30 14:41:18 [36mINFO: [39m { user: [32m'vlado'[39m, platform: [32m'linux'[39m, arch: [32m'x64'[39m, node: [32m'v16.15.0'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m bucket metadata: {
+  kind: [32m'storage#bucket'[39m,
+  selfLink: [32m'https://www.googleapis.com/storage/v1/b/human-models'[39m,
+  id: [32m'human-models'[39m,
+  name: [32m'human-models'[39m,
+  projectNumber: [32m'759769403572'[39m,
+  metageneration: [32m'3'[39m,
+  location: [32m'US'[39m,
+  storageClass: [32m'STANDARD'[39m,
+  etag: [32m'CAM='[39m,
+  timeCreated: [32m'2022-05-30T11:05:24.220Z'[39m,
+  updated: [32m'2022-05-30T11:13:10.381Z'[39m,
+  iamConfiguration: { bucketPolicyOnly: { enabled: [33mfalse[39m }, uniformBucketLevelAccess: { enabled: [33mfalse[39m }, publicAccessPrevention: [32m'inherited'[39m },
+  locationType: [32m'multi-region'[39m,
+  rpo: [32m'DEFAULT'[39m
+}
+2022-05-30 14:41:18 [35mSTATE:[39m enumerating: { folder: [32m'./models'[39m, files: [33m83[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/README.md'[39m, url: [32m'https://storage.googleapis.com/human-models/README.md'[39m, size: [32m'133'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/age.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/age.bin'[39m, size: [32m'149709'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/age.json'[39m, url: [32m'https://storage.googleapis.com/human-models/age.json'[39m, size: [32m'5359'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazeface-back.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/blazeface-back.bin'[39m, size: [32m'334398'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazeface-back.json'[39m, url: [32m'https://storage.googleapis.com/human-models/blazeface-back.json'[39m, size: [32m'4286'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazeface-front.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/blazeface-front.bin'[39m, size: [32m'247056'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazeface-front.json'[39m, url: [32m'https://storage.googleapis.com/human-models/blazeface-front.json'[39m, size: [32m'3413'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazeface.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/blazeface.bin'[39m, size: [32m'334398'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazeface.json'[39m, url: [32m'https://storage.googleapis.com/human-models/blazeface.json'[39m, size: [32m'4276'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazepose-detector2d.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/blazepose-detector2d.bin'[39m, size: [32m'7073770'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazepose-detector2d.json'[39m, url: [32m'https://storage.googleapis.com/human-models/blazepose-detector2d.json'[39m, size: [32m'6977'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazepose-detector3d.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/blazepose-detector3d.bin'[39m, size: [32m'2816494'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazepose-detector3d.json'[39m, url: [32m'https://storage.googleapis.com/human-models/blazepose-detector3d.json'[39m, size: [32m'7090'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazepose-full.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/blazepose-full.bin'[39m, size: [32m'5980853'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazepose-full.json'[39m, url: [32m'https://storage.googleapis.com/human-models/blazepose-full.json'[39m, size: [32m'7490'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazepose-heavy.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/blazepose-heavy.bin'[39m, size: [32m'26168012'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazepose-heavy.json'[39m, url: [32m'https://storage.googleapis.com/human-models/blazepose-heavy.json'[39m, size: [32m'13893'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazepose-lite.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/blazepose-lite.bin'[39m, size: [32m'2583098'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/blazepose-lite.json'[39m, url: [32m'https://storage.googleapis.com/human-models/blazepose-lite.json'[39m, size: [32m'7016'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/efficientpose.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/efficientpose.bin'[39m, size: [32m'5228268'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/efficientpose.json'[39m, url: [32m'https://storage.googleapis.com/human-models/efficientpose.json'[39m, size: [32m'6845'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/emotion.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/emotion.bin'[39m, size: [32m'763176'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/emotion.json'[39m, url: [32m'https://storage.googleapis.com/human-models/emotion.json'[39m, size: [32m'1847'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/faceboxes.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/faceboxes.bin'[39m, size: [32m'1868336'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/faceboxes.json'[39m, url: [32m'https://storage.googleapis.com/human-models/faceboxes.json'[39m, size: [32m'14400'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh-attention-alt.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh-attention-alt.bin'[39m, size: [32m'2212974'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh-attention-alt.json'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh-attention-alt.json'[39m, size: [32m'19896'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh-attention.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh-attention.bin'[39m, size: [32m'2198535'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh-attention.json'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh-attention.json'[39m, size: [32m'35457'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh-detection-full.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh-detection-full.bin'[39m, size: [32m'546170'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh-detection-full.json'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh-detection-full.json'[39m, size: [32m'8868'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh-detection-short.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh-detection-short.bin'[39m, size: [32m'189108'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh-detection-short.json'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh-detection-short.json'[39m, size: [32m'4451'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh-orig.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh-orig.bin'[39m, size: [32m'2735233'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh-orig.json'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh-orig.json'[39m, size: [32m'4635'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh.bin'[39m, size: [32m'1358557'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/facemesh.json'[39m, url: [32m'https://storage.googleapis.com/human-models/facemesh.json'[39m, size: [32m'5005'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/faceres-deep.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/faceres-deep.bin'[39m, size: [32m'13008320'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/faceres-deep.json'[39m, url: [32m'https://storage.googleapis.com/human-models/faceres-deep.json'[39m, size: [32m'4316'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/faceres.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/faceres.bin'[39m, size: [32m'6362060'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/faceres.json'[39m, url: [32m'https://storage.googleapis.com/human-models/faceres.json'[39m, size: [32m'4415'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/gear.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/gear.bin'[39m, size: [32m'1378785'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/gear.json'[39m, url: [32m'https://storage.googleapis.com/human-models/gear.json'[39m, size: [32m'2189'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/gender-ssrnet-imdb.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/gender-ssrnet-imdb.bin'[39m, size: [32m'150079'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/gender-ssrnet-imdb.json'[39m, url: [32m'https://storage.googleapis.com/human-models/gender-ssrnet-imdb.json'[39m, size: [32m'5332'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/gender.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/gender.bin'[39m, size: [32m'188463'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/gender.json'[39m, url: [32m'https://storage.googleapis.com/human-models/gender.json'[39m, size: [32m'2398'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handdetect.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/handdetect.bin'[39m, size: [32m'3280598'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handdetect.json'[39m, url: [32m'https://storage.googleapis.com/human-models/handdetect.json'[39m, size: [32m'6314'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handlandmark-full.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/handlandmark-full.bin'[39m, size: [32m'3750533'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handlandmark-full.json'[39m, url: [32m'https://storage.googleapis.com/human-models/handlandmark-full.json'[39m, size: [32m'5207'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handlandmark-lite.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/handlandmark-lite.bin'[39m, size: [32m'1760908'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handlandmark-lite.json'[39m, url: [32m'https://storage.googleapis.com/human-models/handlandmark-lite.json'[39m, size: [32m'5233'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handlandmark-sparse.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/handlandmark-sparse.bin'[39m, size: [32m'998534'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handlandmark-sparse.json'[39m, url: [32m'https://storage.googleapis.com/human-models/handlandmark-sparse.json'[39m, size: [32m'5577'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handskeleton.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/handskeleton.bin'[39m, size: [32m'5140792'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handskeleton.json'[39m, url: [32m'https://storage.googleapis.com/human-models/handskeleton.json'[39m, size: [32m'5681'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handtrack.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/handtrack.bin'[39m, size: [32m'2299744'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/handtrack.json'[39m, url: [32m'https://storage.googleapis.com/human-models/handtrack.json'[39m, size: [32m'25694'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/iris.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/iris.bin'[39m, size: [32m'2430503'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/iris.json'[39m, url: [32m'https://storage.googleapis.com/human-models/iris.json'[39m, size: [32m'6171'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/liveness.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/liveness.bin'[39m, size: [32m'547713'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/liveness.json'[39m, url: [32m'https://storage.googleapis.com/human-models/liveness.json'[39m, size: [32m'1610'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/mb3-centernet.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/mb3-centernet.bin'[39m, size: [32m'3134746'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/mb3-centernet.json'[39m, url: [32m'https://storage.googleapis.com/human-models/mb3-centernet.json'[39m, size: [32m'10096'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/meet.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/meet.bin'[39m, size: [32m'348561'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/meet.json'[39m, url: [32m'https://storage.googleapis.com/human-models/meet.json'[39m, size: [32m'6457'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/mobileface.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/mobileface.bin'[39m, size: [32m'2031790'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/mobileface.json'[39m, url: [32m'https://storage.googleapis.com/human-models/mobileface.json'[39m, size: [32m'2887'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/mobilefacenet.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/mobilefacenet.bin'[39m, size: [32m'4825093'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/mobilefacenet.json'[39m, url: [32m'https://storage.googleapis.com/human-models/mobilefacenet.json'[39m, size: [32m'5671'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/movenet-lightning.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/movenet-lightning.bin'[39m, size: [32m'4318369'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/movenet-lightning.json'[39m, url: [32m'https://storage.googleapis.com/human-models/movenet-lightning.json'[39m, size: [32m'7578'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/movenet-multipose.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/movenet-multipose.bin'[39m, size: [32m'8785221'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/movenet-multipose.json'[39m, url: [32m'https://storage.googleapis.com/human-models/movenet-multipose.json'[39m, size: [32m'12084'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/movenet-thunder.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/movenet-thunder.bin'[39m, size: [32m'11563091'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/movenet-thunder.json'[39m, url: [32m'https://storage.googleapis.com/human-models/movenet-thunder.json'[39m, size: [32m'7569'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/nanodet.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/nanodet.bin'[39m, size: [32m'7015081'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/nanodet.json'[39m, url: [32m'https://storage.googleapis.com/human-models/nanodet.json'[39m, size: [32m'7297'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/posenet.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/posenet.bin'[39m, size: [32m'4692328'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/posenet.json'[39m, url: [32m'https://storage.googleapis.com/human-models/posenet.json'[39m, size: [32m'2414'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/selfie.bin'[39m, url: [32m'https://storage.googleapis.com/human-models/selfie.bin'[39m, size: [32m'201212'[39m }
+2022-05-30 14:41:18 [32mDATA: [39m exists: { file: [32m'models/selfie.json'[39m, url: [32m'https://storage.googleapis.com/human-models/selfie.json'[39m, size: [32m'5876'[39m }
+2022-05-30 14:41:18 [36mINFO: [39m bucket info: { files: [33m83[39m, size: [33m151310072[39m }

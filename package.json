@@ -3,7 +3,7 @@
   "description": "Repository for Human models",
   "license": "MIT",
   "author": "Vladimir Mandic <mandic00@live.com>",
-  "version": "2.8.0",
+  "version": "2.8.1",
   "main": "gcp-upload.js",
   "repository": {
     "type": "git",
@@ -22,12 +22,12 @@
     "tfjs-models"
   ],
   "dependencies": {
-    "@vladmandic/human": "^2.7.3",
-    "@vladmandic/pilogger": "^0.4.4",
     "@google-cloud/storage": "^6.0.1",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint": "^8.16.0",
+    "@vladmandic/human": "^2.8.1",
+    "@vladmandic/pilogger": "^0.4.4",
+    "eslint": "^8.17.0",
     "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0"
   }
 }
