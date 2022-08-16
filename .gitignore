@@ -1,3 +1,5 @@
 node_modules
-human-service-account.json
 pnpm-lock.yaml
+secret/**
+saved/**
+tflite/**

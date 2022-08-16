@@ -1,6 +1,5 @@
 /**
  * This is internal-only script that uploads all models to Google Cloud Storage bucket
- * 
 */
 
 /* GCP bucket auth init
@@ -13,11 +12,11 @@ const fs = require('fs');
 const path = require('path');
 const log = require('@vladmandic/pilogger');
 const { Storage } = require('@google-cloud/storage');
-const authJson = require('./human-service-account.json');
+const authJson = require('../secret/human-service-account.json');
 
-const localDir = './models';
-const keyFilename = './human-service-account.json';
+const keyFilename = 'secret/human-service-account.json';
 const bucketName = 'human-models';
+const localDir = 'models';
 
 async function main() {
   log.headerJson();
