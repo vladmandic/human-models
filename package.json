@@ -22,10 +22,10 @@
     "tfjs-models"
   ],
   "dependencies": {
-    "@google-cloud/storage": "^6.4.2",
+    "@google-cloud/storage": "^6.5.2",
     "@vladmandic/human": "^2.10.2",
     "@vladmandic/pilogger": "^0.4.6",
-    "eslint": "^8.23.1",
+    "eslint": "^8.24.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0"
