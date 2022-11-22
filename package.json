@@ -23,9 +23,9 @@
   ],
   "dependencies": {
     "@google-cloud/storage": "^6.7.0",
-    "@vladmandic/human": "^2.11.1",
+    "@vladmandic/human": "^3.0.1",
     "@vladmandic/pilogger": "^0.4.6",
-    "eslint": "^8.27.0",
+    "eslint": "^8.28.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0"
