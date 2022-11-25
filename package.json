@@ -3,8 +3,7 @@
   "description": "Repository for Human models",
   "license": "MIT",
   "author": "Vladimir Mandic <mandic00@live.com>",
-  "version": "2.11.1",
-  "main": "gcp-upload.js",
+  "version": "3.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vladmandic/human-models.git"
