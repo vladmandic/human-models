@@ -1,6 +1,6 @@
 # Human Models
 
-[Human main repository](https://github.com/vladmandic/human)  
+Link to [Human main repository](https://github.com/vladmandic/human)  
 
 For model details and credits see [documentation in the main library](https://github.com/vladmandic/human/wiki/Models)  
 
