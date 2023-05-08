@@ -3,7 +3,7 @@
   "description": "Repository for Human models",
   "license": "MIT",
   "author": "Vladimir Mandic <mandic00@live.com>",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vladmandic/human-models.git"
@@ -21,10 +21,10 @@
     "tfjs-models"
   ],
   "dependencies": {
-    "@google-cloud/storage": "^6.9.1",
-    "@vladmandic/human": "^3.0.4",
-    "@vladmandic/pilogger": "^0.4.7",
-    "eslint": "^8.33.0",
+    "@google-cloud/storage": "^6.10.0",
+    "@vladmandic/human": "^3.0.6",
+    "@vladmandic/pilogger": "^0.4.8",
+    "eslint": "^8.40.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0"
